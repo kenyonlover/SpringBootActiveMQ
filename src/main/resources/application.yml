@@ -1,0 +1,9 @@
+spring:
+  activemq:
+    broker-url: tcp://127.0.0.1:61616
+    user: admin
+    password: admin
+queue: wucy-queue
+topic: wucy-topic
+server:
+  port: 8080
